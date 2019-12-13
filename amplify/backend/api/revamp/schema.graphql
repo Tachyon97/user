@@ -1,0 +1,6 @@
+type TT @model @auth(rules: [{allow: owner, ownerField: "owner", operations: [create, read, update, delete]}]) {
+  id: ID!
+  name: String!
+  description: String
+  owner: String
+}

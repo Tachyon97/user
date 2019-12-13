@@ -1,0 +1,20 @@
+# this is an auto generated file. This will be overwritten
+query GetTt($id: ID!) {
+  getTT(id: $id) {
+    id
+    name
+    description
+    owner
+  }
+}
+query ListTTs($filter: ModelTTFilterInput, $limit: Int, $nextToken: String) {
+  listTTs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      description
+      owner
+    }
+    nextToken
+  }
+}

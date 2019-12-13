@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTt($owner: String!) {
+  onCreateTT(owner: $owner) {
+    id
+    name
+    description
+    owner
+  }
+}
+subscription OnUpdateTt($owner: String!) {
+  onUpdateTT(owner: $owner) {
+    id
+    name
+    description
+    owner
+  }
+}
+subscription OnDeleteTt($owner: String!) {
+  onDeleteTT(owner: $owner) {
+    id
+    name
+    description
+    owner
+  }
+}

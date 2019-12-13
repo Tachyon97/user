@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "revamp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": "false",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authrevampa9b236ec",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

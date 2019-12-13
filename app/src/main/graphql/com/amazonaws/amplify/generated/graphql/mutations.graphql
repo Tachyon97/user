@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateTt($input: CreateTTInput!, $condition: ModelTTConditionInput) {
+  createTT(input: $input, condition: $condition) {
+    id
+    name
+    description
+    owner
+  }
+}
+mutation UpdateTt($input: UpdateTTInput!, $condition: ModelTTConditionInput) {
+  updateTT(input: $input, condition: $condition) {
+    id
+    name
+    description
+    owner
+  }
+}
+mutation DeleteTt($input: DeleteTTInput!, $condition: ModelTTConditionInput) {
+  deleteTT(input: $input, condition: $condition) {
+    id
+    name
+    description
+    owner
+  }
+}
